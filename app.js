@@ -74,7 +74,8 @@
         var v = el.tagName === 'SELECT' ? el.options[el.selectedIndex].text : (el.value || '').trim();
         lines.push(el.dataset.label + ': ' + (v || '-'));
       });
-      var number = form.dataset.waNumber || WA;
+      var target = form.querySelector('[data-wa-target]');
+      var number = target ? target.value : (form.dataset.waNumber || WA);
       window.open('https://wa.me/' + number + '?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
       if (form.closest('#booking-modal')) closeBooking();
       form.reset();

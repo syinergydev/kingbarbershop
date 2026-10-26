@@ -38,11 +38,3 @@ const PRODUCTS = [
   }
 ];
 
-// King Grooming Series (belum ada harga): ditampilkan dengan tombol tanya harga.
-PRODUCTS.push(
-  { id: 'king-styling-hair-pomade', nama: 'King Styling Hair Pomade', kategori: 'pomade', harga: null, ukuran: 'Strong hold & shine', gambar: null, deskripsi: 'Pomade dengan hold kuat dan kilap, untuk styling rambut yang tegas.' },
-  { id: 'king-styling-hair-clay', nama: 'King Styling Hair Clay', kategori: 'pomade', harga: null, ukuran: 'Matte finish', gambar: null, deskripsi: 'Clay dengan hasil matte dan tekstur tinggi untuk tampilan natural.' },
-  { id: 'king-styling-powder', nama: 'King Styling Powder', kategori: 'styling', harga: null, ukuran: 'Volumizing', gambar: null, deskripsi: 'Powder untuk menambah volume dan tekstur rambut.' },
-  { id: 'king-hair-tonic', nama: 'King Hair Tonic', kategori: 'perawatan', harga: null, ukuran: 'Penumbuh & nutrisi', gambar: null, deskripsi: 'Tonik untuk nutrisi akar rambut dan kulit kepala.' },
-  { id: 'king-power-hair-gel', nama: 'King Power Hair Gel', kategori: 'styling', harga: null, ukuran: 'Extreme hold', gambar: null, deskripsi: 'Gel dengan hold kuat sepanjang hari.' }
-);
